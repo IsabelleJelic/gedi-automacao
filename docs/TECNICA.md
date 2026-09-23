@@ -7,6 +7,7 @@ _Guia técnico do código-fonte_
 
 ## 📋 Informações do Projeto
 
+
 | Informação | Descrição |
 |-----------|-----------|
 | **Projeto** | Automação GEDI — TIM |
