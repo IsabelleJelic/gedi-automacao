@@ -1,6 +1,6 @@
 # GEDI - Automação de Envio de Faturas
 
-Automação completa do processo de envio de faturas, reduzindo o tempo de processamento de **8 horas para 15 minutos**.
+Automação completa do processo de envio de faturas, reduzindo o tempo de processamento de **8 horas para 15 minutos.**
 
 ## 📊 Resultados
 
