@@ -2,7 +2,7 @@
 
 Projeto que automatiza o processo de envio de faturas, reduzindo o tempo de 8 horas para 15 minutos.
 
-##Resultados
+* Resultados
 
 | Métrica | Antes | Depois |
 |---------|-------|--------|
@@ -10,7 +10,7 @@ Projeto que automatiza o processo de envio de faturas, reduzindo o tempo de 8 ho
 | Erros manuais | ~5% | 0% |
 | Capacidade diária | 50 faturas | 500+ faturas |
 
-##O que faz
+* O que faz
 
 • Consulta faturas no banco de dados
 • Valida dados automáticamente  
@@ -18,7 +18,7 @@ Projeto que automatiza o processo de envio de faturas, reduzindo o tempo de 8 ho
 • Envia via API GEDI
 • Gera relatórios de sucesso/falha
 
-##Tecnologias Usadas
+* Tecnologias Usadas
 
 - Python 3.10+
 - Pandas (validação de dados)
@@ -26,7 +26,7 @@ Projeto que automatiza o processo de envio de faturas, reduzindo o tempo de 8 ho
 - Requests (integração com API)
 - SQLite (banco de dados)
 
-##Instalação
+* Instalação
 
 ```bash
 # Clone o repositório
@@ -37,7 +37,7 @@ cd gedi-automacao
 pip install -r requirements.txt
 ```
 
-##Como Usar
+* Como Usar
 
 ```python
 # Execute o script principal
@@ -57,7 +57,7 @@ resultados = validar_faturas("./faturas")
 enviar_gedi(resultados)
 ```
 
-##Estrutura do Projeto
+* Estrutura do Projeto
 
 gedi-automacao/
 ├── src/ # Scripts principais
@@ -70,11 +70,11 @@ gedi-automacao/
 ├── requirements.txt # Dependências
 └── README.md # Este arquivo
 
-##Contato
+* Contato
 
-- **LinkedIn:** [https://www.linkedin.com/in/isabelle-jelic-1439841b9/]
-- **Email:** isabellevic.jelic@gmail.com
+- * * LinkedIn:* *  [https://www.linkedin.com/in/isabelle-jelic-1439841b9/]
+- * * Email:* *  isabellevic.jelic@gmail.com
 
 ---
 
-**Desenvolvido por Isabelle Jelic**
+* * Desenvolvido por Isabelle Jelic* * 
