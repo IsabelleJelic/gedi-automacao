@@ -1,32 +1,32 @@
 # GEDI - Automação de Envio de Faturas
 
-Projeto que automatiza o processo de envio de faturas, reduzindo o tempo de 8 horas para 15 minutos.
+Automação completa do processo de envio de faturas, reduzindo o tempo de processamento de **8 horas para 15 minutos**.
 
-* Resultados
+## 📊 Resultados
 
 | Métrica | Antes | Depois |
 |---------|-------|--------|
-| Tempo de processamento | 8 horas | 15 minutos |
-| Erros manuais | ~5% | 0% |
-| Capacidade diária | 50 faturas | 500+ faturas |
+| **Tempo de processamento** | 8 horas | 15 minutos |
+| **Taxa de erros** | ~5% | 0% |
+| **Faturas/dia** | 50 | 500+ |
 
-* O que faz
+## 🔧 O que faz
 
-• Consulta faturas no banco de dados
-• Valida dados automáticamente  
-• Carimba PDFs com data/hora
-• Envia via API GEDI
-• Gera relatórios de sucesso/falha
+- ✅ Consulta faturas no banco de dados
+- ✅ Valida dados automaticamente
+- ✅ Carimba PDFs com data/hora
+- ✅ Envia via API GEDI
+- ✅ Gera relatórios de sucesso/falha
 
-* Tecnologias Usadas
+## 📦 Tecnologias Utilizadas
 
-- Python 3.10+
-- Pandas (validação de dados)
-- ReportLab (carimbo de PDFs)
-- Requests (integração com API)
-- SQLite (banco de dados)
+- **Python 3.10+**
+- **Pandas** – validação de dados
+- **ReportLab** – carimbo de PDFs
+- **Requests** – integração com API
+- **SQLite** – banco de dados
 
-* Instalação
+## 🚀 Instalação
 
 ```bash
 # Clone o repositório
@@ -37,14 +37,15 @@ cd gedi-automacao
 pip install -r requirements.txt
 ```
 
-* Como Usar
+## 💻 Como Usar
 
-```python
-# Execute o script principal
+### Via linha de comando:
+
+```bash
 python src/main.py
 ```
 
-Ou em Python:
+### Via Python:
 
 ```python
 from src.validacoes import validar_faturas
@@ -57,24 +58,26 @@ resultados = validar_faturas("./faturas")
 enviar_gedi(resultados)
 ```
 
-* Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
+```
 gedi-automacao/
-├── src/ # Scripts principais
-│ ├── main.py # Orquestrador
-│ ├── validacoes.py # Validação de dados
-│ ├── envio_gedi.py # Envio via API
-│ ├── carimbar_pdfs.py # Carimbo de PDFs
-│ └── banco.py # Conexão com BD
-├── docs/ # Documentação
-├── requirements.txt # Dependências
-└── README.md # Este arquivo
+├── src/                    # Scripts principais
+│   ├── main.py            # Orquestrador
+│   ├── validacoes.py      # Validação de dados
+│   ├── envio_gedi.py      # Envio via API
+│   ├── carimbar_pdfs.py   # Carimbo de PDFs
+│   └── banco.py           # Conexão com BD
+├── docs/                  # Documentação
+├── requirements.txt       # Dependências
+└── README.md             # Este arquivo
+```
 
-* Contato
+## 📧 Contato
 
-- * * LinkedIn:* *  [https://www.linkedin.com/in/isabelle-jelic-1439841b9/]
-- * * Email:* *  isabellevic.jelic@gmail.com
+- **LinkedIn:** [Isabelle Jelic](https://www.linkedin.com/in/isabelle-jelic-1439841b9/)
+- **E-mail:** isabellevic.jelic@gmail.com
 
 ---
 
-* * Desenvolvido por Isabelle Jelic* * 
+**Desenvolvido por Isabelle Jelic**
