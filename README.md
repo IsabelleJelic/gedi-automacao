@@ -12,10 +12,10 @@ Automação completa do processo de envio de faturas, reduzindo o tempo de proce
 
 ## 🔧 O que faz
 
-- ✅ Consulta faturas no banco de dados
-- ✅ Valida dados automaticamente
-- ✅ Carimba PDFs com data/hora
-- ✅ Envia via API GEDI
+- ✅ Consulta de informções de faturas e clientes diretamente no banco de dados
+- ✅ Validação de dados automaticamente
+- ✅ Carimbação de PDFs com Numero de Pedido + CNPJ + Nome da Empresa
+- ✅ Envio automático via API GEDI
 - ✅ Gera relatórios de sucesso/falha
 
 ## 📦 Tecnologias Utilizadas
