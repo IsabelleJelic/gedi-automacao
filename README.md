@@ -26,6 +26,12 @@ Automação completa do processo de envio de faturas, reduzindo o tempo de proce
 - **Requests** – integração com API
 - **SQLite** – banco de dados
 
+## 📚 Documentação
+
+- **[Guia Técnico Completo](docs/TECNICA.md)** — Arquitetura, módulos, APIs
+- **[Setup & Configuração](docs/SETUP.md)** — Como configurar .env
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** — Problemas comuns
+
 ## 🚀 Instalação
 
 ```bash
