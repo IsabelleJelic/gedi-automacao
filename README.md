@@ -80,4 +80,4 @@ gedi-automacao/
 
 ---
 
-**Desenvolvido por Isabelle Jelic**
+**✦ Desenvolvido por Isabelle Jelic**
